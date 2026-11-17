@@ -1,6 +1,3 @@
-#education-section {
-    margin-bottom: 4rem;
-}
 .education-course-container {
     border-radius: 0.5rem;
 }
@@ -40,6 +37,13 @@
     font-size: 0.8rem;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
 #courses-header {
     text-align: center;
     font-weight: 400;
@@ -50,9 +54,6 @@
     color: white;
 }
 
-#certification-section {
-    margin-bottom: 4rem;
-}
 #comptia-cert-info {
     display: flex;
     flex-direction: row;
@@ -61,10 +62,6 @@
 }
 #comptia-cert-info > div > p {
     line-height: 1.5;
-}
-
-#training-section {
-    margin-bottom: 4rem;
 }
 
 @media (width >= 500px) {
